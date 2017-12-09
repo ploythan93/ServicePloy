@@ -12,6 +12,7 @@
 		BA2E0FCE1FDBA35200BD0B27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2E0FCC1FDBA35200BD0B27 /* Main.storyboard */; };
 		BA2E0FD01FDBA35200BD0B27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2E0FCF1FDBA35200BD0B27 /* Assets.xcassets */; };
 		BA2E0FD31FDBA35200BD0B27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2E0FD11FDBA35200BD0B27 /* LaunchScreen.storyboard */; };
+		BA2E0FDB1FDBB46C00BD0B27 /* if_cono_512542.png in Resources */ = {isa = PBXBuildFile; fileRef = BA2E0FDA1FDBB46C00BD0B27 /* if_cono_512542.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BA2E0FCF1FDBA35200BD0B27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA2E0FD21FDBA35200BD0B27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA2E0FD41FDBA35200BD0B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA2E0FDA1FDBB46C00BD0B27 /* if_cono_512542.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = if_cono_512542.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				BA2E0FCA1FDBA35200BD0B27 /* ViewController.swift */,
 				BA2E0FCC1FDBA35200BD0B27 /* Main.storyboard */,
 				BA2E0FCF1FDBA35200BD0B27 /* Assets.xcassets */,
+				BA2E0FDA1FDBB46C00BD0B27 /* if_cono_512542.png */,
 				BA2E0FD11FDBA35200BD0B27 /* LaunchScreen.storyboard */,
 				BA2E0FD41FDBA35200BD0B27 /* Info.plist */,
 			);
@@ -123,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA2E0FDB1FDBB46C00BD0B27 /* if_cono_512542.png in Resources */,
 				BA2E0FD31FDBA35200BD0B27 /* LaunchScreen.storyboard in Resources */,
 				BA2E0FD01FDBA35200BD0B27 /* Assets.xcassets in Resources */,
 				BA2E0FCE1FDBA35200BD0B27 /* Main.storyboard in Resources */,
