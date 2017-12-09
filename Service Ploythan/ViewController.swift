@@ -11,7 +11,30 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    //explicit (การประกาศตัวเเปร)
+
+    var nameString: String = ""
+    
+    
+    
+    
+    
+    @IBOutlet weak var myTextField: UITextField! // input value ถ้าไม่เกิดอะไรต้องเลือกเป็น outlet
+    
+    
+    
+    @IBAction func clickAction(_ sender: Any) { // เกิด action ต้องเลือก type action
+        nameString = myTextField.text! //รับค้่าเข้ามาจาก textfield
+        // แต่บางทีอาจไม่มีค่ามรับเข้ามา หรือมีค่าเป็น nil เพราะฉะนั้นต้องใส่ ! เพื่อให้ไม่เป็นความว่างเปล่า
+        // Show LogCat
+        print("nameString = \(nameString)")
+        
+        
+    } //clickAction
+    
+    
+    
+    override func viewDidLoad() { // Method Main
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -22,5 +45,5 @@ class ViewController: UIViewController {
     }
 
 
-}
+} //Main Class
 
